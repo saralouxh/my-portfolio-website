@@ -1,3 +1,38 @@
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 4rem;
+}
 p{
     color: white;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    margin: 2rem;
+    padding: 2rem;
+    border: 5px solid rgb(134, 216, 134);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fa {
+    color: white;
+    font-size:5rem;
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
