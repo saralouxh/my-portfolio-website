@@ -1,16 +1,21 @@
 
 <div class="container-fluid">
 
-  <div class="header">
-    <h1>Hi, I'm Sara.</h1>
-    <h1>A full stack Web Developer.</h1>
+  <div class="center-container">
+    <div class="header">
+      <h1>Hi, I'm Sara</h1>
+      <h1>Full-Stack Web Developer</h1>
+    </div>
+   
+    <div class="fancy-button">
+      <button (click)="scrollToProjects()">See My Work</button>
+    </div>
+
+    <span class="arrow">&#8675;</span>
   </div>
  
-  <div class="fancy-button">
-    <button>See My Work</button>
-  </div>
  
-  <div style="padding-top: 10rem;">
+  <div id="projects-section">
     <app-projects></app-projects>
   </div>
 
