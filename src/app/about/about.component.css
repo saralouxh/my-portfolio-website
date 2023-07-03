@@ -8,6 +8,7 @@ h1 {
     color: white;
     margin-top: 6rem;
     font-family: 'Roboto Mono', monospace;
+    padding-bottom: 1rem;
 }
 .container {
     display: flex;
@@ -48,7 +49,7 @@ h1 {
 }
 
 .skills {
-    padding-top: 3rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
