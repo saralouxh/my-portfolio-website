@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  constructor(){}
+
+  scrollToProjects(){
+    const projectsSection = document.getElementById('projects-section');
+    projectsSection?.scrollIntoView({behavior: 'smooth'});
+  }
   
 }

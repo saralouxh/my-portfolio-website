@@ -1,22 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 nav {
   display: flex;
   justify-content: center;
-  margin: 0;
+  padding-top: 2rem;
 }
 .menuItems {
   list-style: none;
   display: flex;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 a {
   text-decoration: none;
   color: white;
-  font-size: 35px;
-  font-family: 'Amatic SC', cursive;
-  padding: 1.5rem;
+  font-size: 25px;
+  font-family: 'Roboto Mono', monospace;
+  margin: 2rem;
+  border: 2px solid #9AEFA1;
+  border-radius: 10px;
+  padding: 7px;
 }
-// a:hover{
-//   -webkit-box-shadow: 0px 0px 100px 0px rgba(255,165,0,1);
-//   -moz-box-shadow: 0px 0px 100px 0px rgba(255,165,0,1);
-//   box-shadow: 0px 0px 100px 0px rgba(255,165,0,1);
-//   }
+a:hover{
+  // background: none;
+  // -webkit-box-shadow: 0px 0px 100px 0px #47f334;
+  // -moz-box-shadow: 0px 0px 100px 0px #47f334;
+  box-shadow: 0px 0px 20px 5px #6d9f67;
+  }
+
+// a:visited {
+//   text-decoration: none;
+//   color: #fff;
+// }
+
+// a {
+//   color:#fff;
+//   -moz-transition: all 0.2s ease-in;
+//   -o-transition: all 0.2s ease-in;
+//   -webkit-transition: all 0.2s ease-in;
+//   transition: all 0.2s ease-in;
+// }
+
+// a:hover {
+//   color: #93e793;
+//   text-shadow:0px 0px 30px white;
+//   -moz-transition: all 0.2s ease-in;
+//   -o-transition: all 0.2s ease-in;
+//   -webkit-transition: all 0.2s ease-in;
+//   transition: all 0.2s ease-in;
+// }

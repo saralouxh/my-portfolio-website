@@ -1,26 +1,33 @@
 @use 'sass:color';
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
 
 h1{
     color: white;
     text-align: center;
-    font-family: 'Amatic SC', cursive;
-    font-size: 85px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
 }
 .header{
-    padding-top: 5rem;
+    padding-top: 12rem;
 }
 .container-fluid {
-  // display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   overflow-y: auto;
 }
-
-button {
-  margin-top: 1rem; /* optional spacing */
+.arrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9AEFA1;
+  font-size: 20rem; /* Adjust the font size to make the arrow bigger */
+  margin: 0; /* Remove the margin around the arrow */
+  padding: 0;
 }
 
 // One-stop magic hue shift
@@ -110,8 +117,7 @@ button {
     opacity: 0;
   }
 
-  &:hover,
-  &:focus {
+  &:hover {
     color: hsla(var(--text-hover), 1);
 
     // Lighten border
@@ -137,7 +143,7 @@ button {
 }
 
 .fancy-button {
-  margin-top: 5rem;
+  margin-top: 3rem;
   padding: 3em;
   position: relative;
   z-index: 1;
